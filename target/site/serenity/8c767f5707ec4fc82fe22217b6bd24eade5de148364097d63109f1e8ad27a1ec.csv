@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Fuel type test","To check the car of fuel type as Petrol","SUCCESS","2021-02-03T13:21:11.781+05:30[Asia/Calcutta]","0.0","18.45"
+"Fuel type test","To check the car of fuel type as Diesel","SUCCESS","2021-02-03T13:21:31.11+05:30[Asia/Calcutta]","0.0","16.22"
+"Fuel type test","To check the car of fuel type as CNG","SUCCESS","2021-02-03T13:21:48.174+05:30[Asia/Calcutta]","0.0","16.2"

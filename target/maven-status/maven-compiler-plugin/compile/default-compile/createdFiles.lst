@@ -1,0 +1,14 @@
+com\qa\base\Locators.class
+com\qa\pages\NewCarLauchedPage.class
+com\qa\pages\UsedCarEvaluationPage.class
+com\qa\steps\NewCarLaunchesPageSteps.class
+com\qa\steps\NewCarPageSteps.class
+com\qa\pages\FindNewCarPage.class
+com\qa\steps\HomePageSteps.class
+com\qa\steps\FindNewCarPageSteps.class
+com\qa\pages\HomePage.class
+com\qa\pages\UpcomingNewCarPage.class
+com\qa\pages\SearchPage.class
+com\qa\steps\SearchPageSteps.class
+com\qa\steps\UsedCarValuationSteps.class
+com\qa\base\TestBase.class

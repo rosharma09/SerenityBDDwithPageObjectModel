@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="com.qa.testcases.CarSearchTest" skipped="0" tests="1" time="18.75" timestamp="2021-02-03 06:13:32"><testcase classname="com.qa.testcases.CarSearchTest" name="To test the search feature of the carwale website"><error type="java.util.NoSuchElementException"/><system-err>null&#13;
+com.qa.pages.HomePage.searchCar(HomePage.java:57)&#13;
+com.qa.steps.HomePageSteps.serachForCar(HomePageSteps.java:45)&#13;
+com.qa.testcases.CarSearchTest.carSearchTest(CarSearchTest.java:51)&#13;
+org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)&#13;
+org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:542)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:770)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)&#13;
+</system-err></testcase></testsuite>

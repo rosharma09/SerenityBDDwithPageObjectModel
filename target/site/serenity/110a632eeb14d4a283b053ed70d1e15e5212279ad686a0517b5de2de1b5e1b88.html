@@ -1,0 +1,1271 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title>Find used car evaluation parameterized test</title>
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" type="text/css" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" type="text/css" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- JQuery-UI -->
+<link type="text/css" href="jqueryui/1.11.2-start/jquery-ui.min.css" rel="Stylesheet" />
+<script type="text/javascript" src="jqueryui/1.11.2-start/jquery-ui.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<!-- ImgPreview -->
+<script src="scripts/imgpreview.full.jquery.js" type="text/javascript"></script>
+</head>
+
+
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle">Automation of Carwale site using serenity BDD with Page Object Model aaproach</span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+        <span class="breadcrumbs">
+            <a href="index.html" class="breadcrumbs">Home</a>
+
+        > Find used car evaluation parameterized test
+        </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 03-02-2021 13:19</span>
+    <br style="clear:left"/>
+</div>
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                                <div>
+                                    <h3 class="discreet-story-header">
+                                        <i class="fa fa-2x fa-comments-o"></i>
+                                        <span class="story-header-title">Find Car Evaluation Test</span>
+                                    </h3>
+
+                                    <div class="discreet-requirement-narrative-title">
+                                        
+                                    </div>
+                                </div>
+
+                        </td>
+                        <td valign="top">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="success-color">
+                                    Find used car evaluation parameterized test
+                                        <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+
+
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+        <div class="story-title">
+            <h3 class="story-header">Scenario Outline</h3>
+
+            <div class="scenario">Navigate to<br>Navigate to used car evaluation<br>User is redirected to the car evaluation page<br>User enter the required details on the car evaluation page<br>user click on the calculate value button<br>The fair price and good price are displayed as ₹ 8 Lakh and ₹ 8.59 Lakh</div>
+
+        </div>
+
+    <div id="beforetable"></div>
+
+
+            <h3 class="story-header">Examples:</h3>
+
+
+                <p class="example-tag">
+                </p>
+
+            <div class="example-table test-report">
+                <table class="table">
+                    <thead>
+                    <tr>
+                        <th>#</th>
+                            <th>Mfgyr</th>
+                            <th>Mfgmnth</th>
+                            <th>Make</th>
+                            <th>Model</th>
+                            <th>Version</th>
+                            <th>City</th>
+                            <th>Owner</th>
+                            <th>Kilo</th>
+                            <th>Fairconditionprice</th>
+                            <th>Goodconditionprice</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="test-SUCCESS"><a href="#0">1</a></td>
+                                <td class="test-SUCCESS"><a
+                                            href="#0">2018</a>
+                                </td>
+                                <td class="test-SUCCESS"><a
+                                            href="#0">May</a>
+                                </td>
+                                <td class="test-SUCCESS"><a
+                                            href="#0">Hyundai</a>
+                                </td>
+                                <td class="test-SUCCESS"><a
+                                            href="#0">i20 Active</a>
+                                </td>
+                                <td class="test-SUCCESS"><a
+                                            href="#0">1.2 Base</a>
+                                </td>
+                                <td class="test-SUCCESS"><a
+                                            href="#0">Mumbai</a>
+                                </td>
+                                <td class="test-SUCCESS"><a
+                                            href="#0">First owner</a>
+                                </td>
+                                <td class="test-SUCCESS"><a
+                                            href="#0">10000</a>
+                                </td>
+                                <td class="test-SUCCESS"><a
+                                            href="#0">₹ 8 Lakh</a>
+                                </td>
+                                <td class="test-SUCCESS"><a
+                                            href="#0">₹ 8.59 Lakh</a>
+                                </td>
+                        </tr>
+                        <tr>
+                            <td class="test-SUCCESS"><a href="#1">2</a></td>
+                                <td class="test-SUCCESS"><a
+                                            href="#1">2018</a>
+                                </td>
+                                <td class="test-SUCCESS"><a
+                                            href="#1">May</a>
+                                </td>
+                                <td class="test-SUCCESS"><a
+                                            href="#1">Hyundai</a>
+                                </td>
+                                <td class="test-SUCCESS"><a
+                                            href="#1">i20 Active</a>
+                                </td>
+                                <td class="test-SUCCESS"><a
+                                            href="#1">1.2 Base</a>
+                                </td>
+                                <td class="test-SUCCESS"><a
+                                            href="#1">Mumbai</a>
+                                </td>
+                                <td class="test-SUCCESS"><a
+                                            href="#1">First owner</a>
+                                </td>
+                                <td class="test-SUCCESS"><a
+                                            href="#1">200000</a>
+                                </td>
+                                <td class="test-SUCCESS"><a
+                                            href="#1">₹ 7.8 Lakh</a>
+                                </td>
+                                <td class="test-SUCCESS"><a
+                                            href="#1">₹ 8.38 Lakh</a>
+                                </td>
+                        </tr>
+                        <tr>
+                            <td class="test-SUCCESS"><a href="#2">3</a></td>
+                                <td class="test-SUCCESS"><a
+                                            href="#2">2018</a>
+                                </td>
+                                <td class="test-SUCCESS"><a
+                                            href="#2">May</a>
+                                </td>
+                                <td class="test-SUCCESS"><a
+                                            href="#2">Hyundai</a>
+                                </td>
+                                <td class="test-SUCCESS"><a
+                                            href="#2">i20 Active</a>
+                                </td>
+                                <td class="test-SUCCESS"><a
+                                            href="#2">1.2 Base</a>
+                                </td>
+                                <td class="test-SUCCESS"><a
+                                            href="#2">Mumbai</a>
+                                </td>
+                                <td class="test-SUCCESS"><a
+                                            href="#2">First owner</a>
+                                </td>
+                                <td class="test-SUCCESS"><a
+                                            href="#2">1000</a>
+                                </td>
+                                <td class="test-SUCCESS"><a
+                                            href="#2">₹ 8 Lakh</a>
+                                </td>
+                                <td class="test-SUCCESS"><a
+                                            href="#2">₹ 8.59 Lakh</a>
+                                </td>
+                        </tr>
+                        <tr>
+                            <td class="test-SUCCESS"><a href="#3">4</a></td>
+                                <td class="test-SUCCESS"><a
+                                            href="#3">2018</a>
+                                </td>
+                                <td class="test-SUCCESS"><a
+                                            href="#3">May</a>
+                                </td>
+                                <td class="test-SUCCESS"><a
+                                            href="#3">Hyundai</a>
+                                </td>
+                                <td class="test-SUCCESS"><a
+                                            href="#3">i20 Active</a>
+                                </td>
+                                <td class="test-SUCCESS"><a
+                                            href="#3">1.2 Base</a>
+                                </td>
+                                <td class="test-SUCCESS"><a
+                                            href="#3">Mumbai</a>
+                                </td>
+                                <td class="test-SUCCESS"><a
+                                            href="#3">First owner</a>
+                                </td>
+                                <td class="test-SUCCESS"><a
+                                            href="#3">1500</a>
+                                </td>
+                                <td class="test-SUCCESS"><a
+                                            href="#3">₹ 8 Lakh</a>
+                                </td>
+                                <td class="test-SUCCESS"><a
+                                            href="#3">₹ 8.59 Lakh</a>
+                                </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+    <div id="tablecontents">
+        <div>
+            <table class="step-table">
+                <tr class="step-titles">
+                    <th width="65">                        &nbsp;
+                    </th>
+
+                        <th width="%" class="step-description-column greentext">
+                            Steps
+                        </th>
+                        <th width="150" class="greentext">Screenshots</th>
+                    <th width="130" class="greentext">Outcome</th>
+                    <th width="80" class="greentext"><i title="Duration" class="far fa-clock"></i></th>
+                </tr>
+                <tr class="step-table-separator">
+                    <td colspan="5"></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="50" class="step-icon">
+                        <a name="0"/>
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection0')"
+                               style="display:block">
+                                <i class="fa fa-plus-square-o imgstepSection0 success-icon"
+                                   style="margin-left: 20px; float:left;  padding-right:5px"></i>
+                            </a>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection0')"
+                               style="display:block;">
+                                <span class="top-level-step">
+                                Find used car evaluation parameterized test
+                            </span>
+                            </a>
+                            <span class="evidence">
+                            </span>
+                        </div>
+                    </td>
+                        <td width="160" class="SUCCESS-text">
+                                <a href="110a632eeb14d4a283b053ed70d1e15e5212279ad686a0517b5de2de1b5e1b88_screenshots.html#screenshots?screenshot=0">
+                                    <img src="6a712065360f80c709b64858d5b2c9a6f8c04162865a49a860fc66244a27a1de.png"
+                                         href="6a712065360f80c709b64858d5b2c9a6f8c04162865a49a860fc66244a27a1de.png"
+                                         class="screenshot"
+                                         width="48" height="48"/>
+                                </a>
+                                <i class="fas fa-arrow-right"></i>
+
+                                <a href="110a632eeb14d4a283b053ed70d1e15e5212279ad686a0517b5de2de1b5e1b88_screenshots.html#screenshots?screenshot=15">
+                                    <img src="83496092cc2a9f2e5971e3153d6f1a791589c47e3fdba46f1b26ddddfab6cb72.png"
+                                         href="83496092cc2a9f2e5971e3153d6f1a791589c47e3fdba46f1b26ddddfab6cb72.png"
+                                         class="screenshot"
+                                         width="48" height="48"/>
+                                </a>
+                        </td>
+                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
+                    <td width="100"><span class="top-level-step">29.28s</span></td>
+                </tr>
+                <tr>
+                    <td colspan="5">
+                        <table id="stepSection0" style="display:none; width:100%">
+
+                <tr class="test-SUCCESS">
+                    <td width="50" class="step-icon">
+                        <a name="0-0"/>
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                                <span class="nested-group-step">
+                                Navigate to
+                            </span>
+                            <span class="evidence">
+                            </span>
+                        </div>
+                    </td>
+                        <td width="160" class="SUCCESS-text">
+
+                                <a href="110a632eeb14d4a283b053ed70d1e15e5212279ad686a0517b5de2de1b5e1b88_screenshots.html#screenshots?screenshot=1">
+                                    <img src="6a712065360f80c709b64858d5b2c9a6f8c04162865a49a860fc66244a27a1de.png"
+                                         href="6a712065360f80c709b64858d5b2c9a6f8c04162865a49a860fc66244a27a1de.png"
+                                         class="screenshot"
+                                         width="48" height="48"/>
+                                </a>
+                        </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">14.06s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="50" class="step-icon">
+                        <a name="0-1"/>
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                                <span class="nested-group-step">
+                                Navigate to used car evaluation
+                            </span>
+                            <span class="evidence">
+                            </span>
+                        </div>
+                    </td>
+                        <td width="160" class="SUCCESS-text">
+
+                                <a href="110a632eeb14d4a283b053ed70d1e15e5212279ad686a0517b5de2de1b5e1b88_screenshots.html#screenshots?screenshot=3">
+                                    <img src="d19c20078a5040968fad0165e288bbdfeeec1edf2d652e1721cbce1dd3efe7ed.png"
+                                         href="d19c20078a5040968fad0165e288bbdfeeec1edf2d652e1721cbce1dd3efe7ed.png"
+                                         class="screenshot"
+                                         width="48" height="48"/>
+                                </a>
+                        </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">7.81s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="50" class="step-icon">
+                        <a name="0-2"/>
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                                <span class="nested-group-step">
+                                User is redirected to the car evaluation page
+                            </span>
+                            <span class="evidence">
+                            </span>
+                        </div>
+                    </td>
+                        <td width="160" class="SUCCESS-text">
+
+                                <a href="110a632eeb14d4a283b053ed70d1e15e5212279ad686a0517b5de2de1b5e1b88_screenshots.html#screenshots?screenshot=4">
+                                    <img src="d19c20078a5040968fad0165e288bbdfeeec1edf2d652e1721cbce1dd3efe7ed.png"
+                                         href="d19c20078a5040968fad0165e288bbdfeeec1edf2d652e1721cbce1dd3efe7ed.png"
+                                         class="screenshot"
+                                         width="48" height="48"/>
+                                </a>
+                        </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">0.02s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="50" class="step-icon">
+                        <a name="0-3"/>
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                                <span class="nested-group-step">
+                                User enter the required details on the car evaluation page
+                            </span>
+                            <span class="evidence">
+                            </span>
+                        </div>
+                    </td>
+                        <td width="160" class="SUCCESS-text">
+                                <a href="110a632eeb14d4a283b053ed70d1e15e5212279ad686a0517b5de2de1b5e1b88_screenshots.html#screenshots?screenshot=5">
+                                    <img src="3a76b49ee55a72bfa6d03e0955434de7c7df1f5105f1affadf6927dee4901442.png"
+                                         href="3a76b49ee55a72bfa6d03e0955434de7c7df1f5105f1affadf6927dee4901442.png"
+                                         class="screenshot"
+                                         width="48" height="48"/>
+                                </a>
+                                <i class="fas fa-arrow-right"></i>
+
+                                <a href="110a632eeb14d4a283b053ed70d1e15e5212279ad686a0517b5de2de1b5e1b88_screenshots.html#screenshots?screenshot=12">
+                                    <img src="9c7609f5b9c43859c3701747194becbc41fccea2002b7774b9fb2eee19dbf065.png"
+                                         href="9c7609f5b9c43859c3701747194becbc41fccea2002b7774b9fb2eee19dbf065.png"
+                                         class="screenshot"
+                                         width="48" height="48"/>
+                                </a>
+                        </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">6.29s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="50" class="step-icon">
+                        <a name="0-4"/>
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                                <span class="nested-group-step">
+                                user click on the calculate value button
+                            </span>
+                            <span class="evidence">
+                            </span>
+                        </div>
+                    </td>
+                        <td width="160" class="SUCCESS-text">
+
+                                <a href="110a632eeb14d4a283b053ed70d1e15e5212279ad686a0517b5de2de1b5e1b88_screenshots.html#screenshots?screenshot=14">
+                                    <img src="8646795196e3fd37c3e755a7853ccafb1244f0675cb224a2ac5cfcd9ce1bc267.png"
+                                         href="8646795196e3fd37c3e755a7853ccafb1244f0675cb224a2ac5cfcd9ce1bc267.png"
+                                         class="screenshot"
+                                         width="48" height="48"/>
+                                </a>
+                        </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">0.74s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="50" class="step-icon">
+                        <a name="0-5"/>
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                                <span class="nested-group-step">
+                                The fair price and good price are displayed as ₹ 8 Lakh and ₹ 8.59 Lakh
+                            </span>
+                            <span class="evidence">
+                            </span>
+                        </div>
+                    </td>
+                        <td width="160" class="SUCCESS-text">
+
+                                <a href="110a632eeb14d4a283b053ed70d1e15e5212279ad686a0517b5de2de1b5e1b88_screenshots.html#screenshots?screenshot=15">
+                                    <img src="83496092cc2a9f2e5971e3153d6f1a791589c47e3fdba46f1b26ddddfab6cb72.png"
+                                         href="83496092cc2a9f2e5971e3153d6f1a791589c47e3fdba46f1b26ddddfab6cb72.png"
+                                         class="screenshot"
+                                         width="48" height="48"/>
+                                </a>
+                        </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">0.37s</span></td>
+                </tr>
+
+                        </table>
+                    </td>
+                <tr>
+                <tr class="test-SUCCESS">
+                    <td width="50" class="step-icon">
+                        <a name="1"/>
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection1')"
+                               style="display:block">
+                                <i class="fa fa-plus-square-o imgstepSection1 success-icon"
+                                   style="margin-left: 20px; float:left;  padding-right:5px"></i>
+                            </a>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection1')"
+                               style="display:block;">
+                                <span class="top-level-step">
+                                Find used car evaluation parameterized test
+                            </span>
+                            </a>
+                            <span class="evidence">
+                            </span>
+                        </div>
+                    </td>
+                        <td width="160" class="SUCCESS-text">
+                                <a href="110a632eeb14d4a283b053ed70d1e15e5212279ad686a0517b5de2de1b5e1b88_screenshots.html#screenshots?screenshot=16">
+                                    <img src="ecd79641cb858163adf70ca07997a423569a61ec87bede6aa4ce5826b571590c.png"
+                                         href="ecd79641cb858163adf70ca07997a423569a61ec87bede6aa4ce5826b571590c.png"
+                                         class="screenshot"
+                                         width="48" height="48"/>
+                                </a>
+                                <i class="fas fa-arrow-right"></i>
+
+                                <a href="110a632eeb14d4a283b053ed70d1e15e5212279ad686a0517b5de2de1b5e1b88_screenshots.html#screenshots?screenshot=31">
+                                    <img src="5243d927c04555f14a554c24e0c20b5727be41bc7516f128c10d0a0360851dc9.png"
+                                         href="5243d927c04555f14a554c24e0c20b5727be41bc7516f128c10d0a0360851dc9.png"
+                                         class="screenshot"
+                                         width="48" height="48"/>
+                                </a>
+                        </td>
+                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
+                    <td width="100"><span class="top-level-step">29.12s</span></td>
+                </tr>
+                <tr>
+                    <td colspan="5">
+                        <table id="stepSection1" style="display:none; width:100%">
+
+                <tr class="test-SUCCESS">
+                    <td width="50" class="step-icon">
+                        <a name="1-0"/>
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                                <span class="nested-group-step">
+                                Navigate to
+                            </span>
+                            <span class="evidence">
+                            </span>
+                        </div>
+                    </td>
+                        <td width="160" class="SUCCESS-text">
+
+                                <a href="110a632eeb14d4a283b053ed70d1e15e5212279ad686a0517b5de2de1b5e1b88_screenshots.html#screenshots?screenshot=17">
+                                    <img src="ecd79641cb858163adf70ca07997a423569a61ec87bede6aa4ce5826b571590c.png"
+                                         href="ecd79641cb858163adf70ca07997a423569a61ec87bede6aa4ce5826b571590c.png"
+                                         class="screenshot"
+                                         width="48" height="48"/>
+                                </a>
+                        </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">14.27s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="50" class="step-icon">
+                        <a name="1-1"/>
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                                <span class="nested-group-step">
+                                Navigate to used car evaluation
+                            </span>
+                            <span class="evidence">
+                            </span>
+                        </div>
+                    </td>
+                        <td width="160" class="SUCCESS-text">
+
+                                <a href="110a632eeb14d4a283b053ed70d1e15e5212279ad686a0517b5de2de1b5e1b88_screenshots.html#screenshots?screenshot=19">
+                                    <img src="d19c20078a5040968fad0165e288bbdfeeec1edf2d652e1721cbce1dd3efe7ed.png"
+                                         href="d19c20078a5040968fad0165e288bbdfeeec1edf2d652e1721cbce1dd3efe7ed.png"
+                                         class="screenshot"
+                                         width="48" height="48"/>
+                                </a>
+                        </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">7.79s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="50" class="step-icon">
+                        <a name="1-2"/>
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                                <span class="nested-group-step">
+                                User is redirected to the car evaluation page
+                            </span>
+                            <span class="evidence">
+                            </span>
+                        </div>
+                    </td>
+                        <td width="160" class="SUCCESS-text">
+
+                                <a href="110a632eeb14d4a283b053ed70d1e15e5212279ad686a0517b5de2de1b5e1b88_screenshots.html#screenshots?screenshot=20">
+                                    <img src="d19c20078a5040968fad0165e288bbdfeeec1edf2d652e1721cbce1dd3efe7ed.png"
+                                         href="d19c20078a5040968fad0165e288bbdfeeec1edf2d652e1721cbce1dd3efe7ed.png"
+                                         class="screenshot"
+                                         width="48" height="48"/>
+                                </a>
+                        </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">0.02s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="50" class="step-icon">
+                        <a name="1-3"/>
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                                <span class="nested-group-step">
+                                User enter the required details on the car evaluation page
+                            </span>
+                            <span class="evidence">
+                            </span>
+                        </div>
+                    </td>
+                        <td width="160" class="SUCCESS-text">
+                                <a href="110a632eeb14d4a283b053ed70d1e15e5212279ad686a0517b5de2de1b5e1b88_screenshots.html#screenshots?screenshot=21">
+                                    <img src="6dd67d1167475c03ac26cec4fa4b11df4bcd6837de2df3942cd60746415cbfc8.png"
+                                         href="6dd67d1167475c03ac26cec4fa4b11df4bcd6837de2df3942cd60746415cbfc8.png"
+                                         class="screenshot"
+                                         width="48" height="48"/>
+                                </a>
+                                <i class="fas fa-arrow-right"></i>
+
+                                <a href="110a632eeb14d4a283b053ed70d1e15e5212279ad686a0517b5de2de1b5e1b88_screenshots.html#screenshots?screenshot=28">
+                                    <img src="bd1ca86e124e884475e1e866861b87e144fc3d0d11b43788773aff2370c8d8ba.png"
+                                         href="bd1ca86e124e884475e1e866861b87e144fc3d0d11b43788773aff2370c8d8ba.png"
+                                         class="screenshot"
+                                         width="48" height="48"/>
+                                </a>
+                        </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">6.01s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="50" class="step-icon">
+                        <a name="1-4"/>
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                                <span class="nested-group-step">
+                                user click on the calculate value button
+                            </span>
+                            <span class="evidence">
+                            </span>
+                        </div>
+                    </td>
+                        <td width="160" class="SUCCESS-text">
+
+                                <a href="110a632eeb14d4a283b053ed70d1e15e5212279ad686a0517b5de2de1b5e1b88_screenshots.html#screenshots?screenshot=30">
+                                    <img src="4f48e1554d6d58091a6a82b2a01ef9387b5ccdac6a225eef3f551bdd01bcd524.png"
+                                         href="4f48e1554d6d58091a6a82b2a01ef9387b5ccdac6a225eef3f551bdd01bcd524.png"
+                                         class="screenshot"
+                                         width="48" height="48"/>
+                                </a>
+                        </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">0.66s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="50" class="step-icon">
+                        <a name="1-5"/>
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                                <span class="nested-group-step">
+                                The fair price and good price are displayed as ₹ 7.8 Lakh and ₹ 8.38 Lakh
+                            </span>
+                            <span class="evidence">
+                            </span>
+                        </div>
+                    </td>
+                        <td width="160" class="SUCCESS-text">
+
+                                <a href="110a632eeb14d4a283b053ed70d1e15e5212279ad686a0517b5de2de1b5e1b88_screenshots.html#screenshots?screenshot=31">
+                                    <img src="5243d927c04555f14a554c24e0c20b5727be41bc7516f128c10d0a0360851dc9.png"
+                                         href="5243d927c04555f14a554c24e0c20b5727be41bc7516f128c10d0a0360851dc9.png"
+                                         class="screenshot"
+                                         width="48" height="48"/>
+                                </a>
+                        </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">0.38s</span></td>
+                </tr>
+
+                        </table>
+                    </td>
+                <tr>
+                <tr class="test-SUCCESS">
+                    <td width="50" class="step-icon">
+                        <a name="2"/>
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection2')"
+                               style="display:block">
+                                <i class="fa fa-plus-square-o imgstepSection2 success-icon"
+                                   style="margin-left: 20px; float:left;  padding-right:5px"></i>
+                            </a>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection2')"
+                               style="display:block;">
+                                <span class="top-level-step">
+                                Find used car evaluation parameterized test
+                            </span>
+                            </a>
+                            <span class="evidence">
+                            </span>
+                        </div>
+                    </td>
+                        <td width="160" class="SUCCESS-text">
+                                <a href="110a632eeb14d4a283b053ed70d1e15e5212279ad686a0517b5de2de1b5e1b88_screenshots.html#screenshots?screenshot=32">
+                                    <img src="6a712065360f80c709b64858d5b2c9a6f8c04162865a49a860fc66244a27a1de.png"
+                                         href="6a712065360f80c709b64858d5b2c9a6f8c04162865a49a860fc66244a27a1de.png"
+                                         class="screenshot"
+                                         width="48" height="48"/>
+                                </a>
+                                <i class="fas fa-arrow-right"></i>
+
+                                <a href="110a632eeb14d4a283b053ed70d1e15e5212279ad686a0517b5de2de1b5e1b88_screenshots.html#screenshots?screenshot=47">
+                                    <img src="83496092cc2a9f2e5971e3153d6f1a791589c47e3fdba46f1b26ddddfab6cb72.png"
+                                         href="83496092cc2a9f2e5971e3153d6f1a791589c47e3fdba46f1b26ddddfab6cb72.png"
+                                         class="screenshot"
+                                         width="48" height="48"/>
+                                </a>
+                        </td>
+                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
+                    <td width="100"><span class="top-level-step">30.17s</span></td>
+                </tr>
+                <tr>
+                    <td colspan="5">
+                        <table id="stepSection2" style="display:none; width:100%">
+
+                <tr class="test-SUCCESS">
+                    <td width="50" class="step-icon">
+                        <a name="2-0"/>
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                                <span class="nested-group-step">
+                                Navigate to
+                            </span>
+                            <span class="evidence">
+                            </span>
+                        </div>
+                    </td>
+                        <td width="160" class="SUCCESS-text">
+
+                                <a href="110a632eeb14d4a283b053ed70d1e15e5212279ad686a0517b5de2de1b5e1b88_screenshots.html#screenshots?screenshot=33">
+                                    <img src="6a712065360f80c709b64858d5b2c9a6f8c04162865a49a860fc66244a27a1de.png"
+                                         href="6a712065360f80c709b64858d5b2c9a6f8c04162865a49a860fc66244a27a1de.png"
+                                         class="screenshot"
+                                         width="48" height="48"/>
+                                </a>
+                        </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">14.47s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="50" class="step-icon">
+                        <a name="2-1"/>
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                                <span class="nested-group-step">
+                                Navigate to used car evaluation
+                            </span>
+                            <span class="evidence">
+                            </span>
+                        </div>
+                    </td>
+                        <td width="160" class="SUCCESS-text">
+
+                                <a href="110a632eeb14d4a283b053ed70d1e15e5212279ad686a0517b5de2de1b5e1b88_screenshots.html#screenshots?screenshot=35">
+                                    <img src="d19c20078a5040968fad0165e288bbdfeeec1edf2d652e1721cbce1dd3efe7ed.png"
+                                         href="d19c20078a5040968fad0165e288bbdfeeec1edf2d652e1721cbce1dd3efe7ed.png"
+                                         class="screenshot"
+                                         width="48" height="48"/>
+                                </a>
+                        </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">9.21s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="50" class="step-icon">
+                        <a name="2-2"/>
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                                <span class="nested-group-step">
+                                User is redirected to the car evaluation page
+                            </span>
+                            <span class="evidence">
+                            </span>
+                        </div>
+                    </td>
+                        <td width="160" class="SUCCESS-text">
+
+                                <a href="110a632eeb14d4a283b053ed70d1e15e5212279ad686a0517b5de2de1b5e1b88_screenshots.html#screenshots?screenshot=36">
+                                    <img src="d19c20078a5040968fad0165e288bbdfeeec1edf2d652e1721cbce1dd3efe7ed.png"
+                                         href="d19c20078a5040968fad0165e288bbdfeeec1edf2d652e1721cbce1dd3efe7ed.png"
+                                         class="screenshot"
+                                         width="48" height="48"/>
+                                </a>
+                        </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">0.01s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="50" class="step-icon">
+                        <a name="2-3"/>
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                                <span class="nested-group-step">
+                                User enter the required details on the car evaluation page
+                            </span>
+                            <span class="evidence">
+                            </span>
+                        </div>
+                    </td>
+                        <td width="160" class="SUCCESS-text">
+                                <a href="110a632eeb14d4a283b053ed70d1e15e5212279ad686a0517b5de2de1b5e1b88_screenshots.html#screenshots?screenshot=37">
+                                    <img src="ff6c7cc7864f24c09b8c9771d9cc5160dbdf4303eca0b051568fc8a38d35ba39.png"
+                                         href="ff6c7cc7864f24c09b8c9771d9cc5160dbdf4303eca0b051568fc8a38d35ba39.png"
+                                         class="screenshot"
+                                         width="48" height="48"/>
+                                </a>
+                                <i class="fas fa-arrow-right"></i>
+
+                                <a href="110a632eeb14d4a283b053ed70d1e15e5212279ad686a0517b5de2de1b5e1b88_screenshots.html#screenshots?screenshot=44">
+                                    <img src="88946f38c6ec0a21df4f271b1924b424a356ae1268f46b75f3507cf78a8e3f40.png"
+                                         href="88946f38c6ec0a21df4f271b1924b424a356ae1268f46b75f3507cf78a8e3f40.png"
+                                         class="screenshot"
+                                         width="48" height="48"/>
+                                </a>
+                        </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">5.58s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="50" class="step-icon">
+                        <a name="2-4"/>
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                                <span class="nested-group-step">
+                                user click on the calculate value button
+                            </span>
+                            <span class="evidence">
+                            </span>
+                        </div>
+                    </td>
+                        <td width="160" class="SUCCESS-text">
+
+                                <a href="110a632eeb14d4a283b053ed70d1e15e5212279ad686a0517b5de2de1b5e1b88_screenshots.html#screenshots?screenshot=46">
+                                    <img src="2fcc08f03ce43e8ce9dc104b3d2fe4d7586dea58edf0a0b659900aa407cd22c6.png"
+                                         href="2fcc08f03ce43e8ce9dc104b3d2fe4d7586dea58edf0a0b659900aa407cd22c6.png"
+                                         class="screenshot"
+                                         width="48" height="48"/>
+                                </a>
+                        </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">0.51s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="50" class="step-icon">
+                        <a name="2-5"/>
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                                <span class="nested-group-step">
+                                The fair price and good price are displayed as ₹ 8 Lakh and ₹ 8.59 Lakh
+                            </span>
+                            <span class="evidence">
+                            </span>
+                        </div>
+                    </td>
+                        <td width="160" class="SUCCESS-text">
+
+                                <a href="110a632eeb14d4a283b053ed70d1e15e5212279ad686a0517b5de2de1b5e1b88_screenshots.html#screenshots?screenshot=47">
+                                    <img src="83496092cc2a9f2e5971e3153d6f1a791589c47e3fdba46f1b26ddddfab6cb72.png"
+                                         href="83496092cc2a9f2e5971e3153d6f1a791589c47e3fdba46f1b26ddddfab6cb72.png"
+                                         class="screenshot"
+                                         width="48" height="48"/>
+                                </a>
+                        </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">0.39s</span></td>
+                </tr>
+
+                        </table>
+                    </td>
+                <tr>
+                <tr class="test-SUCCESS">
+                    <td width="50" class="step-icon">
+                        <a name="3"/>
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection3')"
+                               style="display:block">
+                                <i class="fa fa-plus-square-o imgstepSection3 success-icon"
+                                   style="margin-left: 20px; float:left;  padding-right:5px"></i>
+                            </a>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection3')"
+                               style="display:block;">
+                                <span class="top-level-step">
+                                Find used car evaluation parameterized test
+                            </span>
+                            </a>
+                            <span class="evidence">
+                            </span>
+                        </div>
+                    </td>
+                        <td width="160" class="SUCCESS-text">
+                                <a href="110a632eeb14d4a283b053ed70d1e15e5212279ad686a0517b5de2de1b5e1b88_screenshots.html#screenshots?screenshot=48">
+                                    <img src="26f33a38e65abd789168640b2c3970702feae50fd790b932b6699286a1e2d211.png"
+                                         href="26f33a38e65abd789168640b2c3970702feae50fd790b932b6699286a1e2d211.png"
+                                         class="screenshot"
+                                         width="48" height="48"/>
+                                </a>
+                                <i class="fas fa-arrow-right"></i>
+
+                                <a href="110a632eeb14d4a283b053ed70d1e15e5212279ad686a0517b5de2de1b5e1b88_screenshots.html#screenshots?screenshot=63">
+                                    <img src="83496092cc2a9f2e5971e3153d6f1a791589c47e3fdba46f1b26ddddfab6cb72.png"
+                                         href="83496092cc2a9f2e5971e3153d6f1a791589c47e3fdba46f1b26ddddfab6cb72.png"
+                                         class="screenshot"
+                                         width="48" height="48"/>
+                                </a>
+                        </td>
+                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
+                    <td width="100"><span class="top-level-step">28.26s</span></td>
+                </tr>
+                <tr>
+                    <td colspan="5">
+                        <table id="stepSection3" style="display:none; width:100%">
+
+                <tr class="test-SUCCESS">
+                    <td width="50" class="step-icon">
+                        <a name="3-0"/>
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                                <span class="nested-group-step">
+                                Navigate to
+                            </span>
+                            <span class="evidence">
+                            </span>
+                        </div>
+                    </td>
+                        <td width="160" class="SUCCESS-text">
+
+                                <a href="110a632eeb14d4a283b053ed70d1e15e5212279ad686a0517b5de2de1b5e1b88_screenshots.html#screenshots?screenshot=49">
+                                    <img src="26f33a38e65abd789168640b2c3970702feae50fd790b932b6699286a1e2d211.png"
+                                         href="26f33a38e65abd789168640b2c3970702feae50fd790b932b6699286a1e2d211.png"
+                                         class="screenshot"
+                                         width="48" height="48"/>
+                                </a>
+                        </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">13.95s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="50" class="step-icon">
+                        <a name="3-1"/>
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                                <span class="nested-group-step">
+                                Navigate to used car evaluation
+                            </span>
+                            <span class="evidence">
+                            </span>
+                        </div>
+                    </td>
+                        <td width="160" class="SUCCESS-text">
+
+                                <a href="110a632eeb14d4a283b053ed70d1e15e5212279ad686a0517b5de2de1b5e1b88_screenshots.html#screenshots?screenshot=51">
+                                    <img src="d19c20078a5040968fad0165e288bbdfeeec1edf2d652e1721cbce1dd3efe7ed.png"
+                                         href="d19c20078a5040968fad0165e288bbdfeeec1edf2d652e1721cbce1dd3efe7ed.png"
+                                         class="screenshot"
+                                         width="48" height="48"/>
+                                </a>
+                        </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">6.17s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="50" class="step-icon">
+                        <a name="3-2"/>
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                                <span class="nested-group-step">
+                                User is redirected to the car evaluation page
+                            </span>
+                            <span class="evidence">
+                            </span>
+                        </div>
+                    </td>
+                        <td width="160" class="SUCCESS-text">
+
+                                <a href="110a632eeb14d4a283b053ed70d1e15e5212279ad686a0517b5de2de1b5e1b88_screenshots.html#screenshots?screenshot=52">
+                                    <img src="d19c20078a5040968fad0165e288bbdfeeec1edf2d652e1721cbce1dd3efe7ed.png"
+                                         href="d19c20078a5040968fad0165e288bbdfeeec1edf2d652e1721cbce1dd3efe7ed.png"
+                                         class="screenshot"
+                                         width="48" height="48"/>
+                                </a>
+                        </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">0.02s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="50" class="step-icon">
+                        <a name="3-3"/>
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                                <span class="nested-group-step">
+                                User enter the required details on the car evaluation page
+                            </span>
+                            <span class="evidence">
+                            </span>
+                        </div>
+                    </td>
+                        <td width="160" class="SUCCESS-text">
+                                <a href="110a632eeb14d4a283b053ed70d1e15e5212279ad686a0517b5de2de1b5e1b88_screenshots.html#screenshots?screenshot=53">
+                                    <img src="ff6c7cc7864f24c09b8c9771d9cc5160dbdf4303eca0b051568fc8a38d35ba39.png"
+                                         href="ff6c7cc7864f24c09b8c9771d9cc5160dbdf4303eca0b051568fc8a38d35ba39.png"
+                                         class="screenshot"
+                                         width="48" height="48"/>
+                                </a>
+                                <i class="fas fa-arrow-right"></i>
+
+                                <a href="110a632eeb14d4a283b053ed70d1e15e5212279ad686a0517b5de2de1b5e1b88_screenshots.html#screenshots?screenshot=60">
+                                    <img src="db3e5b21237739a327893322d1268b2a6f32a36ccbd778b1ee260d59d1b8829d.png"
+                                         href="db3e5b21237739a327893322d1268b2a6f32a36ccbd778b1ee260d59d1b8829d.png"
+                                         class="screenshot"
+                                         width="48" height="48"/>
+                                </a>
+                        </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">7.07s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="50" class="step-icon">
+                        <a name="3-4"/>
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                                <span class="nested-group-step">
+                                user click on the calculate value button
+                            </span>
+                            <span class="evidence">
+                            </span>
+                        </div>
+                    </td>
+                        <td width="160" class="SUCCESS-text">
+
+                                <a href="110a632eeb14d4a283b053ed70d1e15e5212279ad686a0517b5de2de1b5e1b88_screenshots.html#screenshots?screenshot=62">
+                                    <img src="83496092cc2a9f2e5971e3153d6f1a791589c47e3fdba46f1b26ddddfab6cb72.png"
+                                         href="83496092cc2a9f2e5971e3153d6f1a791589c47e3fdba46f1b26ddddfab6cb72.png"
+                                         class="screenshot"
+                                         width="48" height="48"/>
+                                </a>
+                        </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">0.62s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="50" class="step-icon">
+                        <a name="3-5"/>
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                                <span class="nested-group-step">
+                                The fair price and good price are displayed as ₹ 8 Lakh and ₹ 8.59 Lakh
+                            </span>
+                            <span class="evidence">
+                            </span>
+                        </div>
+                    </td>
+                        <td width="160" class="SUCCESS-text">
+
+                                <a href="110a632eeb14d4a283b053ed70d1e15e5212279ad686a0517b5de2de1b5e1b88_screenshots.html#screenshots?screenshot=63">
+                                    <img src="83496092cc2a9f2e5971e3153d6f1a791589c47e3fdba46f1b26ddddfab6cb72.png"
+                                         href="83496092cc2a9f2e5971e3153d6f1a791589c47e3fdba46f1b26ddddfab6cb72.png"
+                                         class="screenshot"
+                                         width="48" height="48"/>
+                                </a>
+                        </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">0.43s</span></td>
+                </tr>
+
+                        </table>
+                    </td>
+                <tr>
+                <tr class="test-SUCCESS">
+                        <td colspan="3"></td>
+                    <td width="100"><span class="top-level-step"><em>SUCCESS</em></span></td>
+                    <td width="100"><span class="top-level-step"><em>116.82s</em></span></td>
+                </tr>
+
+            </table>
+        </div>
+    </div>
+    <div id="beforefooter"></div>
+
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12">
+                <span class="version">Serenity BDD version 2.0.81</span>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        function toggleDiv(divId) {
+            $("#" + divId).toggle();
+            var imgsrc = $(".img" + divId).attr('src');
+            if (imgsrc == 'images/plus.png') {
+                $(".img" + divId).attr("src", function () {
+                    return "images/minus.png";
+                });
+
+            } else {
+                $(".img" + divId).attr("src", function () {
+                    return "images/plus.png";
+                });
+            }
+        }
+    </script>
+
+
+    <script type="text/javascript">
+        //<![CDATA[
+
+        $(document).ready(function () {
+            $('img.screenshot').imgPreview({
+                imgCSS: {
+                    width: '500px'
+                },
+                distanceFromCursor: {top: 10, left: -200}
+            });
+        });
+
+        //]]>
+    </script>
+    <div id="imgPreviewContainer" style="position: absolute; top: 612px; left: 355px; display: none; " class=""><img
+                src="" style="display: none; "></div>
+    <div id="imgPreviewContainer2" style="position: absolute; top: 925px; left: 320px; display: none; " class="">
+        <img style="width: 200px; display: none; " src=""></div>
+    <div id="imgPreviewWithStyles" style="position: absolute; top: 1272px; left: 321px; display: none; " class="">
+        <img style="height: 200px; opacity: 1; display: none; " src=""></div>
+    <div id="imgPreviewWithStyles2" style="display: none; position: absolute; "><img style="height: 200px; "></div>
+    <div id="imgPreviewWithStyles3" style="display: none; position: absolute; "><img style="height: 200px; "></div>
+
+    </body>
+</html>

@@ -1,0 +1,267 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" type="text/css" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" type="text/css" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle">Automation of Carwale site using serenity BDD with Page Object Model aaproach</span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="fda661307cda8e6dc87c229668235fc31204aa65d3884f2c7a7ff9f52a1adfbf.html">Find Car Evaluation Test</a></span>
+                > <span class="truncate-60"><a
+                    href="110a632eeb14d4a283b053ed70d1e15e5212279ad686a0517b5de2de1b5e1b88.html">Find used car evaluation parameterized test </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 03-02-2021 13:19</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Find Car Evaluation Test</span>
+                                    <span class="badge tag-badge" style="">Story</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Find used car evaluation parameterized test
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+    <div class="story-title">
+        <h3>Scenario:</h3>
+        <div class="scenario">Navigate to<br>Navigate to used car evaluation<br>User is redirected to the car evaluation page<br>User enter the required details on the car evaluation page<br>user click on the calculate value button<br>The fair price and good price are displayed as ₹ 8 Lakh and ₹ 8.59 Lakh</div>
+    </div>
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="6a712065360f80c709b64858d5b2c9a6f8c04162865a49a860fc66244a27a1de.png" title=" Find used car evaluation parameterized test " width="1366"/>
+                <img src="6a712065360f80c709b64858d5b2c9a6f8c04162865a49a860fc66244a27a1de.png" title=" Navigate to" width="1366"/>
+                <img src="d19c20078a5040968fad0165e288bbdfeeec1edf2d652e1721cbce1dd3efe7ed.png" title=" Navigate to used car evaluation" width="1366"/>
+                <img src="d19c20078a5040968fad0165e288bbdfeeec1edf2d652e1721cbce1dd3efe7ed.png" title=" Navigate to used car evaluation (completed)" width="1366"/>
+                <img src="d19c20078a5040968fad0165e288bbdfeeec1edf2d652e1721cbce1dd3efe7ed.png" title=" User is redirected to the car evaluation page" width="1366"/>
+                <img src="3a76b49ee55a72bfa6d03e0955434de7c7df1f5105f1affadf6927dee4901442.png" title=" User enter the required details on the car evaluation page" width="1366"/>
+                <img src="5e30ba198f83ed89f97c7f4eeb8c051f3c77ab781ca9f7e3e907d7ccf8a1bf69.png" title=" User enter the required details on the car evaluation page" width="1366"/>
+                <img src="e0a76e2f46165ac4dad99ceccf9dcf58ec3f69902cd4cbc2b5b0b111bc6bebf8.png" title=" User enter the required details on the car evaluation page" width="1366"/>
+                <img src="9d2cf5134edeefc0e6e5dca9348fee1205698c91a185fe4428185280f3b10951.png" title=" User enter the required details on the car evaluation page" width="1366"/>
+                <img src="c7c207ed1c96a4fbe3a6fbc7650146dc6dab86a8d4a57ac3adc22b446687f609.png" title=" User enter the required details on the car evaluation page" width="1366"/>
+                <img src="2aa1271bdb505179c9688f37333b6edd603e8737ae92f285292953d1039aa427.png" title=" User enter the required details on the car evaluation page" width="1366"/>
+                <img src="f7fa9cb0a7d06e08f0b2a0129f75f4aead6fcdd8c028d8238d92dcfa3e37ee2f.png" title=" User enter the required details on the car evaluation page" width="1366"/>
+                <img src="9c7609f5b9c43859c3701747194becbc41fccea2002b7774b9fb2eee19dbf065.png" title=" User enter the required details on the car evaluation page (completed)" width="1366"/>
+                <img src="8646795196e3fd37c3e755a7853ccafb1244f0675cb224a2ac5cfcd9ce1bc267.png" title=" user click on the calculate value button" width="1366"/>
+                <img src="8646795196e3fd37c3e755a7853ccafb1244f0675cb224a2ac5cfcd9ce1bc267.png" title=" user click on the calculate value button (completed)" width="1366"/>
+                <img src="83496092cc2a9f2e5971e3153d6f1a791589c47e3fdba46f1b26ddddfab6cb72.png" title=" The fair price and good price are displayed as ₹ 8 Lakh and ₹ 8.59 Lakh" width="1366"/>
+                <img src="ecd79641cb858163adf70ca07997a423569a61ec87bede6aa4ce5826b571590c.png" title=" Find used car evaluation parameterized test " width="1366"/>
+                <img src="ecd79641cb858163adf70ca07997a423569a61ec87bede6aa4ce5826b571590c.png" title=" Navigate to" width="1366"/>
+                <img src="d19c20078a5040968fad0165e288bbdfeeec1edf2d652e1721cbce1dd3efe7ed.png" title=" Navigate to used car evaluation" width="1366"/>
+                <img src="d19c20078a5040968fad0165e288bbdfeeec1edf2d652e1721cbce1dd3efe7ed.png" title=" Navigate to used car evaluation (completed)" width="1366"/>
+                <img src="d19c20078a5040968fad0165e288bbdfeeec1edf2d652e1721cbce1dd3efe7ed.png" title=" User is redirected to the car evaluation page" width="1366"/>
+                <img src="6dd67d1167475c03ac26cec4fa4b11df4bcd6837de2df3942cd60746415cbfc8.png" title=" User enter the required details on the car evaluation page" width="1366"/>
+                <img src="28009eaf09832905b36df4e0cd57fa06d0d978808c5dbdff124d4c7096128a5e.png" title=" User enter the required details on the car evaluation page" width="1366"/>
+                <img src="e9cf5aa1135530612a003006570db3f3f95b2848c12ce504e5146d9901855613.png" title=" User enter the required details on the car evaluation page" width="1366"/>
+                <img src="d6a8164f8d26d4dd8c626ead8fbf1bb8f3f7e837cf3319c01c89a345b0f9df4a.png" title=" User enter the required details on the car evaluation page" width="1366"/>
+                <img src="0f3dbe65d42a5be33b0d5d4b8b1de6bf1adeb3bb72db2430aea4d524a3930a17.png" title=" User enter the required details on the car evaluation page" width="1366"/>
+                <img src="5f59e3fa8650a9854f0a5572f08c59c4c910c076bdcfd07f087ac493e8ef2876.png" title=" User enter the required details on the car evaluation page" width="1366"/>
+                <img src="c0fc405af4b3ccdf0eb32c276a4b8f1841197d6b1b873e5c85678bc4fc0cb912.png" title=" User enter the required details on the car evaluation page" width="1366"/>
+                <img src="bd1ca86e124e884475e1e866861b87e144fc3d0d11b43788773aff2370c8d8ba.png" title=" User enter the required details on the car evaluation page (completed)" width="1366"/>
+                <img src="4f48e1554d6d58091a6a82b2a01ef9387b5ccdac6a225eef3f551bdd01bcd524.png" title=" user click on the calculate value button" width="1366"/>
+                <img src="4f48e1554d6d58091a6a82b2a01ef9387b5ccdac6a225eef3f551bdd01bcd524.png" title=" user click on the calculate value button (completed)" width="1366"/>
+                <img src="5243d927c04555f14a554c24e0c20b5727be41bc7516f128c10d0a0360851dc9.png" title=" The fair price and good price are displayed as ₹ 7.8 Lakh and ₹ 8.38 Lakh" width="1366"/>
+                <img src="6a712065360f80c709b64858d5b2c9a6f8c04162865a49a860fc66244a27a1de.png" title=" Find used car evaluation parameterized test " width="1366"/>
+                <img src="6a712065360f80c709b64858d5b2c9a6f8c04162865a49a860fc66244a27a1de.png" title=" Navigate to" width="1366"/>
+                <img src="d19c20078a5040968fad0165e288bbdfeeec1edf2d652e1721cbce1dd3efe7ed.png" title=" Navigate to used car evaluation" width="1366"/>
+                <img src="d19c20078a5040968fad0165e288bbdfeeec1edf2d652e1721cbce1dd3efe7ed.png" title=" Navigate to used car evaluation (completed)" width="1366"/>
+                <img src="d19c20078a5040968fad0165e288bbdfeeec1edf2d652e1721cbce1dd3efe7ed.png" title=" User is redirected to the car evaluation page" width="1366"/>
+                <img src="ff6c7cc7864f24c09b8c9771d9cc5160dbdf4303eca0b051568fc8a38d35ba39.png" title=" User enter the required details on the car evaluation page" width="1366"/>
+                <img src="b3d03d8541a93d256dc2a6f366fb508a10358f1fb507a662d0d85c686e7746b3.png" title=" User enter the required details on the car evaluation page" width="1366"/>
+                <img src="a4e8c9cf776115a06f5d4e0ad87d8022dc2a88b9a8cf664a6694ac5ff11d6ed7.png" title=" User enter the required details on the car evaluation page" width="1366"/>
+                <img src="d3938e831148f3b3303ebdc9da1309158dd41005fc9b17125b921e7c3634d374.png" title=" User enter the required details on the car evaluation page" width="1366"/>
+                <img src="afea1f0c0f844621f7f029bb3a5d20700b73050cd270663f3b91d17ed5e3e858.png" title=" User enter the required details on the car evaluation page" width="1366"/>
+                <img src="920dcb7834813c673c16405e3f89942a6b080d67ac2bc2e35f43d6949bd37a28.png" title=" User enter the required details on the car evaluation page" width="1366"/>
+                <img src="9d6338e174a035f22d34fcd61ea1949aad960b7c428096f0a1e89389dd33544c.png" title=" User enter the required details on the car evaluation page" width="1366"/>
+                <img src="88946f38c6ec0a21df4f271b1924b424a356ae1268f46b75f3507cf78a8e3f40.png" title=" User enter the required details on the car evaluation page (completed)" width="1366"/>
+                <img src="2fcc08f03ce43e8ce9dc104b3d2fe4d7586dea58edf0a0b659900aa407cd22c6.png" title=" user click on the calculate value button" width="1366"/>
+                <img src="2fcc08f03ce43e8ce9dc104b3d2fe4d7586dea58edf0a0b659900aa407cd22c6.png" title=" user click on the calculate value button (completed)" width="1366"/>
+                <img src="83496092cc2a9f2e5971e3153d6f1a791589c47e3fdba46f1b26ddddfab6cb72.png" title=" The fair price and good price are displayed as ₹ 8 Lakh and ₹ 8.59 Lakh" width="1366"/>
+                <img src="26f33a38e65abd789168640b2c3970702feae50fd790b932b6699286a1e2d211.png" title=" Find used car evaluation parameterized test " width="1366"/>
+                <img src="26f33a38e65abd789168640b2c3970702feae50fd790b932b6699286a1e2d211.png" title=" Navigate to" width="1366"/>
+                <img src="d19c20078a5040968fad0165e288bbdfeeec1edf2d652e1721cbce1dd3efe7ed.png" title=" Navigate to used car evaluation" width="1366"/>
+                <img src="d19c20078a5040968fad0165e288bbdfeeec1edf2d652e1721cbce1dd3efe7ed.png" title=" Navigate to used car evaluation (completed)" width="1366"/>
+                <img src="d19c20078a5040968fad0165e288bbdfeeec1edf2d652e1721cbce1dd3efe7ed.png" title=" User is redirected to the car evaluation page" width="1366"/>
+                <img src="ff6c7cc7864f24c09b8c9771d9cc5160dbdf4303eca0b051568fc8a38d35ba39.png" title=" User enter the required details on the car evaluation page" width="1366"/>
+                <img src="b3d03d8541a93d256dc2a6f366fb508a10358f1fb507a662d0d85c686e7746b3.png" title=" User enter the required details on the car evaluation page" width="1366"/>
+                <img src="a4e8c9cf776115a06f5d4e0ad87d8022dc2a88b9a8cf664a6694ac5ff11d6ed7.png" title=" User enter the required details on the car evaluation page" width="1366"/>
+                <img src="d3938e831148f3b3303ebdc9da1309158dd41005fc9b17125b921e7c3634d374.png" title=" User enter the required details on the car evaluation page" width="1366"/>
+                <img src="afea1f0c0f844621f7f029bb3a5d20700b73050cd270663f3b91d17ed5e3e858.png" title=" User enter the required details on the car evaluation page" width="1366"/>
+                <img src="920dcb7834813c673c16405e3f89942a6b080d67ac2bc2e35f43d6949bd37a28.png" title=" User enter the required details on the car evaluation page" width="1366"/>
+                <img src="9d6338e174a035f22d34fcd61ea1949aad960b7c428096f0a1e89389dd33544c.png" title=" User enter the required details on the car evaluation page" width="1366"/>
+                <img src="db3e5b21237739a327893322d1268b2a6f32a36ccbd778b1ee260d59d1b8829d.png" title=" User enter the required details on the car evaluation page (completed)" width="1366"/>
+                <img src="83496092cc2a9f2e5971e3153d6f1a791589c47e3fdba46f1b26ddddfab6cb72.png" title=" user click on the calculate value button" width="1366"/>
+                <img src="83496092cc2a9f2e5971e3153d6f1a791589c47e3fdba46f1b26ddddfab6cb72.png" title=" user click on the calculate value button (completed)" width="1366"/>
+                <img src="83496092cc2a9f2e5971e3153d6f1a791589c47e3fdba46f1b26ddddfab6cb72.png" title=" The fair price and good price are displayed as ₹ 8 Lakh and ₹ 8.59 Lakh: <span class='success-color'>SUCCESS</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.81</span>
+</div>
+</body>
+</html>

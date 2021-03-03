@@ -1,0 +1,29 @@
+-------------------------------------------------------------------------------
+Test set: com.qa.testcases.CarSearchTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 7, Skipped: 0, Time elapsed: 45.817 s <<< FAILURE! - in com.qa.testcases.CarSearchTest
+carSearchTest[0](com.qa.testcases.CarSearchTest)  Time elapsed: 10.705 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.qa.testcases.CarSearchTest.carSearchTest(CarSearchTest.java:51)
+
+Test mechanism  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.NullPointerException
+
+carSearchTest[1](com.qa.testcases.CarSearchTest)  Time elapsed: 10.167 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.qa.testcases.CarSearchTest.carSearchTest(CarSearchTest.java:51)
+
+Test mechanism  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.NullPointerException
+
+carSearchTest[2](com.qa.testcases.CarSearchTest)  Time elapsed: 10.885 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.qa.testcases.CarSearchTest.carSearchTest(CarSearchTest.java:51)
+
+Test mechanism  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.NullPointerException
+
+carSearchTest[3](com.qa.testcases.CarSearchTest)  Time elapsed: 10.324 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.qa.testcases.CarSearchTest.carSearchTest(CarSearchTest.java:51)
+

@@ -1,0 +1,9 @@
+[0128/123047.438:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[0128/130540.490:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[0128/190101.324:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[0129/142507.251:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[0130/155751.858:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0130/155751.861:ERROR:exception_snapshot_win.cc(99)] thread ID 5812 not found in process
+[0130/155751.861:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: An attempt was made to access an exiting process. (0xc000010a)
+[0201/195223.326:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[0201/215759.985:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)

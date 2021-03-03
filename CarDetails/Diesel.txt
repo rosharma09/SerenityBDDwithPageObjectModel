@@ -1,0 +1,11 @@
+DieselCar brand name and price 
+Car Name: MAHINDRA SCORPIO Car Price: ? 16.56 Lakh
+Car Name: HYUNDAI CRETA Car Price: ? 10.31 Lakh
+Car Name: MAHINDRA BOLERO Car Price: ? 9.15 Lakh
+Car Name: FORD ECOSPORT Car Price: ? 10.00 Lakh
+Car Name: MAHINDRA THAR Car Price: ? 14.15 Lakh
+Car Name: TOYOTA FORTUNER Car Price: ? 37.60 Lakh
+Car Name: BMW 3 SERIES Car Price: ? 48.29 Lakh
+Car Name: HYUNDAI VENUE Car Price: ? 8.29 Lakh
+Car Name: MAHINDRA XUV300 Car Price: ? 8.70 Lakh
+Car Name: KIA SELTOS Car Price: ? 10.36 Lakh

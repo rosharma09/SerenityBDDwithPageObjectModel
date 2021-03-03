@@ -1,0 +1,8 @@
+com\qa\testcases\CarSearchTest.class
+com\qa\testcases\BodyTypeTest.class
+com\qa\testcases\FindCarEvaluationTest.class
+com\qa\testcases\FindNewCarTest.class
+com\qa\testcases\FuelTypeTest.class
+com\qa\testcases\NewCarLaunchesTest.class
+com\qa\testcases\FindAllNewUpcomingCarsTest.class
+com\qa\testcases\FindNewCarbyBrandTest.class

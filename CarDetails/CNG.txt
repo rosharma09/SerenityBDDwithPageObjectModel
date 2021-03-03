@@ -1,0 +1,10 @@
+CNGCar brand name and price 
+Car Name: MARUTI SUZUKI ERTIGA Car Price: ? 9.14 Lakh
+Car Name: MARUTI SUZUKI WAGON R Car Price: ? 5.53 Lakh
+Car Name: MARUTI SUZUKI EECO Car Price: ? 5.19 Lakh
+Car Name: HYUNDAI AURA Car Price: ? 7.44 Lakh
+Car Name: HYUNDAI GRAND I10 NIOS Car Price: ? 6.80 Lakh
+Car Name: MARUTI SUZUKI ALTO Car Price: ? 4.44 Lakh
+Car Name: MARUTI SUZUKI CELERIO Car Price: ? 5.73 Lakh
+Car Name: HYUNDAI SANTRO Car Price: ? 6.01 Lakh
+Car Name: MARUTI SUZUKI S-PRESSO Car Price: ? 5.19 Lakh

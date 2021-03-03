@@ -1,0 +1,11 @@
+PetrolCar brand name and price 
+Car Name: MARUTI SUZUKI SWIFT Car Price: ? 6.19 Lakh
+Car Name: MARUTI SUZUKI EECO Car Price: ? 4.27 Lakh
+Car Name: MARUTI SUZUKI ERTIGA Car Price: ? 8.44 Lakh
+Car Name: MARUTI SUZUKI BALENO Car Price: ? 6.56 Lakh
+Car Name: MARUTI SUZUKI DZIRE Car Price: ? 6.92 Lakh
+Car Name: MARUTI SUZUKI ALTO Car Price: ? 3.64 Lakh
+Car Name: MARUTI SUZUKI VITARA BREZZA Car Price: ? 8.45 Lakh
+Car Name: HYUNDAI CRETA Car Price: ? 13.80 Lakh
+Car Name: HYUNDAI VENUE Car Price: ? 7.59 Lakh
+Car Name: MAHINDRA XUV300 Car Price: ? 7.95 Lakh
